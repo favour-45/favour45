@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: antiquewhite; 
+    color:blueviolet
+} 
+    nav {
+        background-color: aquamarine;
+        padding: 10px 20px;
+        box-shadow: 0 2px 4px rgba (0,0,0,0.1);
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content:  space-around;
+    }
+
+    nav ul li{
+        color: brown;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        transition: backgroundcolour 0.3s ease;
+        padding: 10px 20px;
+    }
+
+    nav ul li a:hover{
+       background-color: black; 
+       border-radius: 90px;
+    }
+
+     .home{
+        position: relative;
+        text-align: center;
+        color:blueviolet
+     }
+      
+     .home-content{
+        position: relative;
+        padding: 100px;
+     }
+
+     .home-content h1{
+        font-size: 6rem ;
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+     }
+
+     .home-content p{
+        font-size: 2rem;
+        margin-bottom: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+
+     .home .background-video{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 150%;
+        object-fit: cover;
+        z-index: -1;
+     }
+
+     .home-content h1 {
+
+     }
